@@ -1,289 +1,358 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <title>Capstone Project</title>
 
-    <link rel="stylesheet" href="Capstone.css">
-</head>
-<body>
+    <link rel="stylesheet" href="Capstone.css" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid px-5 py-2">
-            <img src="./images/Logo.svg" alt="Logo">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <div class="container-fluid px-5 py-2">
+        <img src="./images/Logo.svg" alt="Logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="me-auto mb-2 mb-lg-0 px-5"></div>
+          <form class="d-flex" role="search">
+            <button class="btn">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Favorite food -->
+
+    <div class="bg-image position-relative">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-white text-center">Your favorite food, delivered to you</h1>
+        <div class="d-flex rounded-pill bg-white mt-4">
+          <img class="ps-3" src="./images/Location-1.svg" alt="" />
+          <input
+            class="form-control"
+            type="search"
+            placeholder="New York"
+
+          />
+          <button class="px-3 py-2 border-0 rounded bg text-white">
+            Search
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class=" me-auto mb-2 mb-lg-0 px-5">
-            </div>
-            <form class="d-flex" role="search">
-              <button class="btn">Sign in</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Favorite food -->
-      <div class="">
-        <div class="bg-image position-relative">
-          <div class="position-absolute top-50 start-50 translate-middle">
-            <h1 class="text-white font-family">Your favorite food, delivered to you</h1>
-            <div class="d-flex rounded-pill search-bg mt-4">
-              <img class="ps-3" src="./images/Location-1.svg" alt="">
-              <input class="form-control" type="search" placeholder="New York" aria-label="Search" >
-             <button class="btn btn-bg text-white">Search</button>
-            </div>
-          </div>
         </div>
       </div>
-      <!-- Favorite food -->
+    </div>
+    <!-- Favorite food -->
 
-      <!-- Take Taste -->
-       <div class="container">
-        <div class="row mt-5">
-          <div class="col-md-6">
-            <div class="d-flex justify-content-end">
-              <img class="img-fluid" width="400px" src="./images/Food.svg" alt="Food">
-            </div>
-          </div>
-          <div class="col-md-6 font-family"><br><br><br>
-            <h2 class="Take-size">Take a taste, come<br/> join us. Life is so<br/> endlessly delicious</h2><br/>
-            <p class="para">In the artist's own experience, of course, art is <br/> fundamentally indefinable, unsayable; there is <br/>
-               something sacred about its demands upon the<br/> soul, something inherently mysterious in the forms it takes</p>
-             <button class="btn btn-bg text-white rounded-pill mt-3 size-btn" type="submit">Download our App</button>   
+    <!-- Take Taste -->
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-end">
+            <img class="img-fluid" src="./images/Food.svg" alt="Food" />
           </div>
         </div>
-       </div>
+        <div class="col-md-6 ps-5 pt-5 text-align">
+          <h2>
+            Take a taste, come<br />
+            join us. Life is so<br />
+            endlessly delicious
+          </h2>
+          <p class="py-2">
+            In the artist's own experience, of course, art is <br />
+            fundamentally indefinable, unsayable; there is <br />
+            something sacred about its demands upon the<br />
+            soul, something inherently mysterious in the forms it takes
+          </p>
+          <button class="border-0 px-3 py-2 bg text-white rounded-pill">
+            Download our App
+          </button>
+        </div>
+      </div>
+    </div>
 
-      <!-- Take Taste End-->
+    <!-- Take Taste End-->
 
-      <!-- Pictures -->
-      <div class="py-5 font-family">
-        <div class="container">
-          <div class="d-flex justify-content-between ">
-            <h5 class="popular pb-3">Popular on New York area</h5>
-            <p> View All <img src="./images/Combined Shape.png" alt=""></p>
+    <!-- Pictures -->
+    <div class="">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <h5 class="pb-3">Popular on New York area</h5>
+          <p>View All <img src="./images/Combined Shape.png" alt="" /></p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="text-center">
+              <img class="img-fluid" src="./images/Photo.svg" alt="" />
+            </div>
+            <h6 class="pt-2 ps-3">Restaurant Name</h6>
+            <img
+              src="./images/Icon Delivery.svg"
+              alt=""
+              class="img-fluid ps-3"
+            />
+            <span>$ 9.99 Delivery Fee</span>
+            <img src="./images/Icon Time.svg" alt="" class="img-fluid ps-5" />
+            <span>10 - 15 mins</span>
           </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="text-center">
-                <img class="img-fluid" width="320px" src="./images/Photo.svg" alt="">
-              </div> 
-              <h6 class="pt-2 ps-3">Restaurant Name</h6>
-              <img class="ps-3" src="./images/Icon Delivery.svg" alt="">
+
+          <div class="col-md-4">
+            <div>
+              <img class="img-fluid" src="./images/Photo (1).svg" alt="" />
+            </div>
+            <div>
+              <h6>Restaurant Name</h6>
+              <img src="./images/Icon Delivery.svg" alt="" class="img-fluid" />
               <span>$ 9.99 Delivery Fee</span>
-              <img class="ps-5" src="./images/Icon Time.svg" alt="">
-              <span>10 - 15 mins</span>   
+              <img src="./images/Icon Time.svg" alt="" class="img-fluid ps-5" />
+              <span>10 - 15 mins</span>
             </div>
-
-            <div class="col-md-4 ">
-              <div class="img-align">
-                <img width="350px" src="./images/Photo (1).svg" alt="">
-              </div>
-                <div class="card-body">
-                  <h6>Restaurant Name</h6>
-                  <img src="./images/Icon Delivery.svg" alt="">
-                  <span>$ 9.99 Delivery Fee</span>
-                  <img class="ps-5" src="./images/Icon Time.svg" alt="">
-                  <span>10 - 15 mins</span>
-                </div>
-                <br>
-              <div class="img-align">
-                <img width="350px" src="./images/Photo (3).svg" alt="">
-              </div>
-                <div class="card-body">
-                  <h6>Restaurant Name</h6>
-                  <img src="./images/Icon Delivery.svg" alt="">
-                  <span>$ 9.99 Delivery Fee</span>
-                  <img class="ps-5" src="./images/Icon Time.svg" alt="">
-                  <span>10 - 15 mins</span>
-                </div>    
+            <div class="pt-3">
+              <img class="img-fluid" src="./images/Photo (3).svg" alt="" />
             </div>
+            <div>
+              <h6>Restaurant Name</h6>
+              <img src="./images/Icon Delivery.svg" alt="" />
+              <span>$ 9.99 Delivery Fee</span>
+              <img src="./images/Icon Time.svg" alt="" class="img-fluid ps-5" />
+              <span>10 - 15 mins</span>
+            </div>
+          </div>
 
-            <div class="col-md-4">
-              <div class="img-align">
-                <img width="350" src="./images/Photo (2).svg" alt="">
-              </div>
-              <div class="card-body">
-                <h6>Restaurant Name</h6>
-                <img src="./images/Icon Delivery.svg" alt="">
-                <span>$ 9.99 Delivery Fee</span>
-                <img class="ps-5" src="./images/Icon Time.svg" alt="">
-                <span>10 - 15 mins</span>
-              </div>
-              <br>
-              <div class="img-align">
-                <img width="350px" src="./images/Photo (4).svg" alt="">
-              </div>
-              <div class="card-body">
-                <h6>Restaurant Name</h6>
-                <img src="./images/Icon Delivery.svg" alt="">
-                <span>$ 9.99 Delivery Fee</span>
-                <img class="ps-5" src="./images/Icon Time.svg" alt="">
-                <span>10 - 15 mins</span>
-              </div>    
-            </div>            
+          <div class="col-md-4">
+            <div>
+              <img class="img-fluid" src="./images/Photo (2).svg" alt="" />
+            </div>
+            <div>
+              <h6>Restaurant Name</h6>
+              <img src="./images/Icon Delivery.svg" alt="" class="img-fluid" />
+              <span>$ 9.99 Delivery Fee</span>
+              <img src="./images/Icon Time.svg" alt="" class="img-fluid ps-5" />
+              <span>10 - 15 mins</span>
+            </div>
+            <div class="pt-3">
+              <img class="img-fluid" src="./images/Photo (4).svg" alt="" />
+            </div>
+            <div>
+              <h6>Restaurant Name</h6>
+              <img src="./images/Icon Delivery.svg" alt="" class="img-fluid" />
+              <span>$ 9.99 Delivery Fee</span>
+              <img src="./images/Icon Time.svg" alt="" class="img-fluid ps-5" />
+              <span>10 - 15 mins</span>
+            </div>
           </div>
         </div>
       </div>
-            
-       <!-- Pictures End -->
+    </div>
 
-       <!-- Cards  -->
-        <div class="text-center How-padding font-family">
-          <h2 class="How">How it works</h2>
-        </div>
-        <div class="container">
-          <div class="container-fluid">
-            <div class="row text-center cards-padding font-family">
-              <div class="col-md-4 py-5 cards-bg">
-                <img src="./images/Capture.PNG" alt="">
-                <h5 class="cards-color pt-3">Order via App</h5>
-                <p class="pt-3">In the artist's own experience, of <br> course, art is fundamentally <br> indefinable, 
-                   unsayable; there is <br> something sacred about its demands
-                </p>
-              </div>
-              <div class="col-md-4 cards-bg py-5">
-                <img src="./images/Capture-1.PNG" alt="">
-                <h5 class="cards-color pt-3">Choose your food</h5>
-                <p class="pt-3">In the artist's own experience, of <br> course, art is fundamentally <br> indefinable, 
-                   unsayable; there is <br> something sacred about its demands
-                </p>
-              </div>
-              <div class="col-md-4 cards-bg py-5">
-                <img src="./images/Capture-2.PNG" alt="">
-                <h5 class="cards-color pt-3">Enjoy!</h5>
-                <p class="pt-3">In the artist's own experience, of <br> course, art is fundamentally <br> indefinable, 
-                   unsayable; there is <br> something sacred about its demands
-                </p>
-              </div>
+    <!-- Pictures End -->
+
+    <!-- Cards  -->
+    <div class="text-center py-5">
+      <h2 class="pt-5 fs-1">How it works</h2>
+    </div>
+    <div class="container">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="cards-bg py-3">
+              <img src="./images/Capture.PNG" alt="" class="img-fluid" />
+              <h5 class="pt-3">Order via App</h5>
+              <p class="pt-3">
+                In the artist's own experience, of course, art is fundamentally
+                indefinable, unsayable; there is something sacred about its
+                demands
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cards-bg py-3">
+              <img src="./images/Capture-1.PNG" alt="" class="img-fluid" />
+              <h5 class="pt-3">Choose your food</h5>
+              <p class="pt-3">
+                In the artist's own experience, of course, art is fundamentally
+                indefinable, unsayable; there is something sacred about its
+                demands
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 cards-bg">
+            <div class="cards-bg py-3">
+              <img src="./images/Capture-2.PNG" alt="" class="img-fluid" />
+              <h5 class="pt-3">Enjoy!</h5>
+              <p class="pt-3">
+                In the artist's own experience, of course, art is fundamentally
+                indefinable, unsayable; there is something sacred about its
+                demands
+              </p>
             </div>
           </div>
         </div>
-                
+      </div>
+    </div>
 
-       <!-- Cards End -->
+    <!-- Cards End -->
 
-       <!-- Background-images -->
-        <div class="background-image position-relative">
-            <div class="position-absolute bottom-0 end-0 index">
-              <img class="" width="500px" src="./images/Ornament.svg" alt="">
-            </div>
-            <div class="font-family text-white food-delivery">
-              <h1 class="heading">Food Delivery helps you <br> bring food to your front door</h1>
-              <div class="pt-4 button">
-                <button class="btn bg-color-btn text-white rounded-pill" type="submit">Download our App</button>
-                <span class="ps-5 pt-2 fw-bold">Browse food</span>
-              </div>
-            </div>
+    <!-- Background-images -->
+    <div class="background-image position-relative my-5">
+      <div class="position-absolute bottom-0 end-0 index">
+        <img src="./images/Ornament.svg" alt="" class="img-fluid" />
+      </div>
+      <div class="text-white pt-5 pd">
+        <h1>
+          Food Delivery helps you <br />
+          bring food to your front door
+        </h1>
+        <div class="pt-4">
+          <button
+            class="btn bg-color-btn text-white rounded-pill"
+            type="submit"
+          >
+            Download our App
+          </button>
+          <span class="ps-5 pt-2 fw-bold">Browse food</span>
         </div>
-       <!-- Background-image-End -->
+      </div>
+    </div>
+    <!-- Background-image-End -->
 
-       <!-- Food Lovers -->
-       <div class="text-center">
-        <h1 class="food-lovers">What our food lovers said</h1>
-        <p class="pt-4 food-lovers-para">In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something
-           sacred <br> about its demands upon the soul, something inherently mysterious in the forms it takes
-        </p>
-       </div>
-
-       <div class="d-flex justify-content-center position-relative pt-5">
-        <img src="./images/Rectangle (1).svg" alt="">
-        <div class="text">
-            <h5 class="text-center size">In the artist's own experience, of <br> course, art is fundamentally <br> indefinable, unsayable</h5>
-        </div>
-        <div class="pic-para">
+    <!-- Food Lovers -->
+    <div class="text-center pt-5">
+      <h1>What our food lovers said</h1>
+      <p class="pt-4">
+        In the artist's own experience, of course, art is fundamentally
+        indefinable, unsayable; there is something sacred <br />
+        about its demands upon the soul, something inherently mysterious in the
+        forms it takes
+      </p>
+    </div>
+    <center>
+      <div class="position-relative py-5 text-white image my-5">
+        <div class="position-absolute top-50 start-50 translate-middle">
+          <h5 class="text-center">
+            In the artist's own experience, of course, art is fundamentally
+            indefinable, unsayable
+          </h5>
+          <div>
             <p>Tim Oliver, ordered Burger Extracheese</p>
-        </div>
-        <div class="position-round">
-          <img src="./images/round.png" class="rounded-pill" alt="">
-        </div>
-       </div>
-       
-       <!-- Food lovers End -->
-
-       <!-- Company logos -->
-       <div class="container">
-        <div class="row text-center py-5">
-          <div class="col-md-3">
-            <img src="./images/logo-1.svg" alt="">
           </div>
-          <div class="col-md-3 mt-3">
-            <img src="./images/Logo-2.svg" alt="">
+          <div class="text-center">
+            <img
+              src="./images/round.png"
+              class="rounded-pill img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </center>
+    <!-- Food lovers End -->
+
+    <!-- Company logos -->
+
+    <div class="container">
+      <div class="row text-center py-5">
+        <div class="col-md-3">
+          <img src="./images/logo-1.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-3 mt-3">
+          <img src="./images/Logo-2.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="./images/logo-3.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-2 mt-4">
+          <img src="./images/logo-4.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-2">
+          <img src="./images/logo-5.svg" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!-- company logos End-->
+
+    <!-- Footer start -->
+
+    <div class="container py-5">
+      <div class="row text-align">
+        <div class="col-md-4">
+          <img src="./images/Logo.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-2 list-size">
+          <span class="fw-bold">Partners</span>
+        </div>
+        <div class="col-md-2">
+          <span class="fw-bold">AboutUs</span>
+        </div>
+        <div class="col-md-2">
+          <span class="fw-bold">PrivacyPolicy</span>
+        </div>
+        <div class="col-md-2">
+          <span class="fw-bold">Contact Us</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bg">
+      <div class="container py-5">
+        <div class="row text-align">
+          <div class="col-md-4">
+            <p>
+              123 Lorem Ipsum Street <br />
+              Tangerang, Banten
+            </p>
+            <br />
+            +10 - 234 - 5678
           </div>
           <div class="col-md-2">
-            <img src="./images/logo-3.svg" alt="">
-          </div>
-          <div class="col-md-2 mt-4">
-            <img src="./images/logo-4.svg" alt="">
+            <p>
+              All Restaurant <br />
+              Best Sellers <br />
+              Top Rated <br />
+              Newcomers
+            </p>
           </div>
           <div class="col-md-2">
-            <img src="./images/logo-5.svg" alt="">
+            <p>
+              FAQ <br />
+              Join our program <br />
+              Be our partners <br />
+              Terms & Condition
+            </p>
+          </div>
+          <div class="col-md-2">
+            <p>
+              Our Parent Company <br />
+              Make an investment
+            </p>
           </div>
         </div>
-       </div>
-       <!-- company logos End-->
+      </div>
+      <div class="d-flex justify-content-end">
+        <img src="./images/footer-image.svg" alt="" class="img-fluid" />
+      </div>
+    </div>
 
-       <!-- Food list -->
-       <div class="container">
-        <div class="row food-list">
-          <div class="col-md-3 img-align">
-            <img src="./images/Logo.svg" alt="">
-          </div>
-          <div class="col-md-1 text-center list-size">
-            <span class="fw-bold">Partners</span>
-          </div>
-          <div class="col-md-2 text-center list-size">
-            <span class="fw-bold">AboutUs</span>
-          </div>
-          <div class="col-md-2 text-center list-size"> 
-            <span class="fw-bold">PrivacyPolicy</span>
-          </div>
-          <div class="col-md-2 text-center list-size">
-            <span class="fw-bold">Contact Us</span>
-          </div>
-        </div>
-       </div>
-       <!-- Food list End -->
+    <!-- Footer End -->
 
-       <!-- Footer Start -->
-       <div class="footer-bg">
-        <div class="container">
-          <div class="row cols-padding text-align">
-            <div class="col-md-3">
-              <p>123 Lorem Ipsum Street <br>
-                Tangerang, Banten</p>
-                <br>
-                +10 - 234 - 5678
-            </div>
-            <div class="col-md-2 text-aligns">
-              <p>All Restaurant <br>
-                Best Sellers <br>
-                Top Rated <br>
-                Newcomers</p>
-            </div>
-            <div class="col-md-2 text-aligns">
-              <p>FAQ <br>
-                Join our program <br>
-                Be our partners <br>
-                Terms & Condition</p>
-            </div>
-            <div class="col-md-2 text-aligns">
-              <p>Our Parent Company <br>
-                Make an investment</p>
-            </div>
-            <div class="col-md-3">
-              <img width="370px" src="./images/footer-image.svg" alt="">
-            </div>
-          </div>
-        </div>
-       </div>
-       <!-- Footer End -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
