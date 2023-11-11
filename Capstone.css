@@ -1,6 +1,6 @@
 .bg-image {
   background-image: url("./images/Burger.svg");
-  min-height: 70vh;
+  height: 70vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@
 @media (max-width: 576px) {
   .bg-image {
     background-image: url("./images/Burger.svg");
-    min-height: 35vh;
+    height: 35vh;
     width: 100%;
   }
   .background-image {
